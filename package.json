@@ -2,14 +2,14 @@
   "name": "api-triangulos",
   "version": "1.0.0",
   "description": "",
-  "main": "src/server.js",
+  "main": "dist/server.js",
   "scripts": {
     "test": "mocha --require sucrase/register ./tests/**/*.test.js",
     "dev": "nodemon src/server.js",
     "prebuild": "rm -r -f dist/",
     "build": "sucrase ./src -d ./dist --transforms imports",
     "postbuild": "cp -r ./src/views ./dist/",
-    "start": "node src/server.js"
+    "start": "node dist/server.js"
   },
   "keywords": [],
   "author": "",
