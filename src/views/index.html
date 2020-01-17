@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.1/axios.js" integrity="sha256-J6UlS3kpnhiSiNQ9lGoV9Q94ZpIPff3UZcR0dDwIT6g=" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="./index.css"/>
+
+  <title>Hello, world!</title>
+</head>
+
+<body>
+  <h1>Triângulos</h1><br>
+  
+  <div id="container">
+    <div class="form-group" id="input">
+      <label>Lado 1</label>
+      <input class="form-control" type="number"/>
+      
+      <label>Lado 2</label>
+      <input class="form-control" type="number"/>
+      
+      <label>Lado 3</label>
+      <input class="form-control" type="number"/>
+    </div>
+
+    <div id="params">      
+      <p><strong>Status:</strong> <span id="status">-</span></p>
+      <p><strong>Tipo:</strong> <span id="tipo">-</span></p>
+      <p><strong>Área:</strong> <span id="area">-</span></p>
+      <p><strong>Perímetro:</strong> <span id="perimetro">-</span></p>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="./index.js"></script>
+</body>
