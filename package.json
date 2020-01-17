@@ -8,7 +8,7 @@
     "dev": "nodemon src/server.js",
     "prebuild": "rm -r -f dist/",
     "build": "sucrase ./src -d ./dist --transforms imports",
-    "postbuild": "cp -r ./src/app/views ./dist/app/",
+    "postbuild": "cp -r ./src/views ./dist/",
     "start": "node src/server.js"
   },
   "keywords": [],
