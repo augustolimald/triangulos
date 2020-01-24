@@ -1,0 +1,107 @@
+[
+  {
+    "lados": [3, 3, 3],
+    "tipo": "Equilátero",
+    "area": 3.8971,
+    "perimetro": 9
+  },
+  
+  {
+    "lados": [4, 4, 4],
+    "tipo": "Equilátero",
+    "area": 6.9282,
+    "perimetro": 12
+  },
+
+  {
+    "lados": [5, 5, 5],
+    "tipo": "Equilátero",
+    "area": 10.8253,
+    "perimetro": 15
+  },
+  
+  {
+    "lados": [15, 15, 15],
+    "tipo": "Equilátero",
+    "area": 97.4279,
+    "perimetro": 45
+  },
+
+  {
+    "lados": [35, 35, 35],
+    "tipo": "Equilátero",
+    "area": 530.4406,
+    "perimetro": 105
+  },
+
+  {
+    "lados": [2, 2, 3],
+    "tipo": "Isósceles",
+    "area": 1.9843,
+    "perimetro": 7
+  },
+
+  {
+    "lados": [4, 6, 6],
+    "tipo": "Isósceles",
+    "area": 11.3137,
+    "perimetro": 16
+  },
+
+  {
+    "lados": [10, 7, 10],
+    "tipo": "Isósceles",
+    "area": 32.7862,
+    "perimetro": 27
+  },
+
+  {
+    "lados": [17, 17, 9],
+    "tipo": "Isósceles",
+    "area": 73.7712,
+    "perimetro": 43
+  },
+
+  {
+    "lados": [35, 35, 15],
+    "tipo": "Isósceles",
+    "area": 256.4024,
+    "perimetro": 85
+  },
+
+  {
+    "lados": [3, 4, 5],
+    "tipo": "Escaleno",
+    "area": 6,
+    "perimetro": 12
+  },
+
+  {
+    "lados": [4, 6, 8],
+    "tipo": "Escaleno",
+    "area": 11.619,
+    "perimetro": 18
+  },
+
+  {
+    "lados": [2, 3, 4],
+    "tipo": "Escaleno",
+    "area": 2.9047,
+    "perimetro": 9
+  },
+
+  {
+    "lados": [6, 8, 10],
+    "tipo": "Escaleno",
+    "area": 24,
+    "perimetro": 24
+  },
+
+  {
+    "lados": [10, 9, 12],
+    "tipo": "Escaleno",
+    "area": 44.039,
+    "perimetro": 31
+  }
+  
+]

@@ -4,13 +4,7 @@ class Triangulo {
   }
 
   verificacao() {
-    if (this.lados[0] < Math.abs(this.lados[1] - this.lados[2])) {
-      return false;
-    } else if (this.lados[1] < Math.abs(this.lados[0] - this.lados[2])) {
-      return false;
-    } else if (this.lados[2] < Math.abs(this.lados[0] - this.lados[1])) {
-      return false;
-    } else if (this.lados[0] >= this.lados[1] + this.lados[2]) {
+    if (this.lados[0] >= this.lados[1] + this.lados[2]) {
       return false;
     } else if (this.lados[1] >= this.lados[0] + this.lados[2]) {
       return false;
@@ -25,7 +19,7 @@ class Triangulo {
     const p = this.lados.reduce((soma, lado) => soma + lado) / 2.0;
     return parseFloat(
       Math
-        .sqrt(p * this.lados.reduce((prod, lado) => prod * (p - lado), 1))
+        .sqrt(p * (p - this.lados[0]) * (p - this.lados[1]) * (p - this.lados[2]))
         .toFixed(4)
     );
   }
